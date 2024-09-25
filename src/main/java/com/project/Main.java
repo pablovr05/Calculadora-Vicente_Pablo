@@ -12,6 +12,7 @@ public class Main extends Application {
     final int WINDOW_WIDTH = 322;
     final int WINDOW_HEIGHT = 430;
 
+
     @Override
     public void start(Stage stage) throws Exception {
 
@@ -23,6 +24,7 @@ public class Main extends Application {
         stage.setTitle("calculadora");
         stage.setWidth(WINDOW_WIDTH);
         stage.setHeight(WINDOW_HEIGHT);
+        stage.setResizable(false);
         stage.show();
 
         if (!System.getProperty("os.name").contains("Mac")) {
